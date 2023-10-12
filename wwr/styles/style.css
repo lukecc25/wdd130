@@ -10,6 +10,7 @@ nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: rgb(24, 140, 32);
@@ -21,11 +22,21 @@ nav a:hover {
 #hero-msg h4{
     text-align: center;
 }
+#hero-img{
+    width: 100%;
+}
 .button-box{
     text-align: center;
 }
 body {
-    background-color: cadetblue; 
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:#041b43;
@@ -33,48 +44,79 @@ header {
 main{
     text-align: center;
 }
-.join{
+main section img {
+    box-sizing: border-box;
+}
+.book, .join{
     background-color: rgb(24, 140, 32); 
     color: #fcfbfb;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: rgb(24, 140, 32);
     color: #fcfbfb;
 }
-.book{
-    background-color: rgb(24, 140, 32);
-    color: #fcfbfb;
-    text-decoration: none;
-} 
+ 
 .book:hover{
     background-color: rgb(24, 140, 32);
     color: #fcfbfb;
 } 
 .msg{
     background-color: #041b43;
+    padding: 35px;
 }
 .home-title{
     color: #fcfbfb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #fcfbfb;
 }
 .msg h2{
     color: #fcfbfb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .msg p{
     color: #fcfbfb;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers_card{
+    margin: 200px 0;
+}
+.camping_card{
+    margin: 200px 0;
+}
+.rapids_card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #041b43;
 }
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.mountains{
+    margin: 100px 0;
 }
 footer{
     background-color: #041b43;
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px
 }
 footer a{
     color: #fcfbfb;
@@ -88,4 +130,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}        
+}
+footer .social img{
+     padding-top: 15px;
+}
