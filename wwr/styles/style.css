@@ -71,6 +71,10 @@ main section{
 main section img{
     box-sizing: border-box;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
+}
 .book, .join{
     background-color: rgb(24, 140, 32); 
     color: #fcfbfb;
@@ -132,7 +136,7 @@ h4{
 .card-img {
     border: 10px solid #041b43;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #b7f3f4;
 }
 .card-img:hover {
     opacity: .6;
@@ -157,7 +161,7 @@ h4{
     margin: 100px 0;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #b7f3f4;
 }
 footer{
     background-color: #041b43;
