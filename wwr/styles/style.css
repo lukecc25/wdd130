@@ -98,7 +98,7 @@ main section img{
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #b7f3f4;
 }
 .home-title{
     color: #fcfbfb;
@@ -211,7 +211,7 @@ footer .social img{
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #b7f3f4;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
